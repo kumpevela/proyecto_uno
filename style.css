@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: {0};
+}
+
+body {
+    font-family: 'Brush Script MT', cursive;
+    font-weight: 200;
+    color:#336570;
+    background: white;
+}
+
+.navbar_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar_item {
+    font-size: 20px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.navbar_item img {
+    height: 200px;
+}
+
+.navbar_link {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+
+.navbar_link:hover {
+    color: black;
+}
+
+.about_container {
+    font-size: 20px;
+    font-weight: {1,2};
+    margin-bottom: 30px;
+    margin-left: 200px;
+    text-transform: none;
+}
+
+.about_intro {
+    color: grey;
+    text-align: center;
+}
+
+.services {
+    color:grey;
+}
+
+.services_container {
+    display: flex;
+    letter-spacing: 4px;
+    text-align: justify;
+    margin: 40px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+.services_item img {
+    margin: 5px;
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    text-align: center;
+}
+
+.recients_works {
+    display: flex;
+    text-align: justify;
+    flex-direction: row;
+    margin: 40px;
+    letter-spacing: 4px;
+    align-items: center;
+}
+
+.recients_works img {
+    margin: 5px;
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+    text-align: center;
+  }
+
+.instagram_container{
+    font-size: 25px;
+    display: flex;
+    letter-spacing: 2px;
+    margin: 1px;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.instagram_item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+  }
+
+.instagram_item img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 4px;
+    height: 30%;
+    width: 30%;
+}
+
+.contact_container {
+    display: flex;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 1px;
+    flex-direction: column;
+    align-items: right;
+  }
+  
+ .contact_intro {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+ .contact a {
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer img {
+    justify-content: center;
+  }
+
+.logo_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1px;
+}
+
+.logo img {
+    padding: 1px;
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+    margin-top: 1px;
+}
+  
