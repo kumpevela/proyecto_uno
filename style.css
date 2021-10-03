@@ -58,14 +58,16 @@ body {
     font-weight: bold;
     margin-bottom: 20px;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .services {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 4px;
+    border-bottom: 4px solid skyblue;
     color: gray
+    
   }
 
 .services_item {
@@ -78,7 +80,6 @@ body {
 }
 .services_item img {
     margin: 10px;
-    height: 150%;
     width: 150%;
     object-fit: scale-down;    
 }
